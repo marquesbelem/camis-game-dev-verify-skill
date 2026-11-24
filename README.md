@@ -1,7 +1,11 @@
-# Como usar em qualquer projeto
-- Por projeto: copie a pasta `.agents/plugins/verify/` para dentro de `.agents/plugins/` do projeto que você quiser auditar. 
-- Global (todos os seus projetos): copie `.agents/plugins/verify/` para `~/.gemini/config/` plugins/verify/ e peça ao agente para rodar a skill verify.
+## 🚀 Como Utilizar nos seus Projetos Pessoais
 
+### Como Submódulo Git (Recomendado)
+Para vincular a skill a qualquer novo projeto e receber atualizações automáticas:
+```bash
+git submodule add https://github.com/marquesbelem/camis-game-dev-verify-skill.git .agents/plugins/verify/
+```
+peça ao agente para rodar a skill verify.
 
 # Informações para gerar a Skill de Verify
 
