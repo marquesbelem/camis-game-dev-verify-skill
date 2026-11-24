@@ -1,3 +1,8 @@
+# Como usar em qualquer projeto
+- Por projeto: copie a pasta `.agents/plugins/verify/` para dentro de `.agents/plugins/` do projeto que você quiser auditar. 
+- Global (todos os seus projetos): copie `.agents/plugins/verify/` para `~/.gemini/config/` plugins/verify/ e peça ao agente para rodar a skill verify.
+
+
 # Informações para gerar a Skill de Verify
 
 Quero que você crie uma skill com multiplas skills que será responsavel por varrer o projeto que eu fizer com IA e verificar e aplicar as validações e fundações a seguir, para garantir que o projeto estará bem estruturado, otimizado, escalavel e seguro. Essa skill tem que ser aginostica a tecnologia. 
