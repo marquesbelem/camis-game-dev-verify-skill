@@ -5,4 +5,4 @@ Para vincular a skill a qualquer novo projeto e receber atualizações automáti
 ```bash
 git submodule add https://github.com/marquesbelem/camis-game-dev-verify-skill.git .agents/plugins/verify/
 ```
-peça ao agente para rodar a skill verify.
+Peça ao agente para rodar a skill verify.
